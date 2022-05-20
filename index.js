@@ -38,13 +38,7 @@ const setUpGuides=(data)=>{
   });
   guideList.innerHTML=html
 }else{
-  guideList.innerHTML=`
-  <div class="main">
-		<h4>Join the Best Commmunity</h4>
-    <img 
-    src=" http://127.0.0.1:5500/image.svg" style="width: 500px; margin-top:20px">
-    </div>
-  `
+  guideList.innerHTML= window.location=' indexi.html';
 }
 
 
