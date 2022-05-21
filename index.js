@@ -38,7 +38,42 @@ const setUpGuides=(data)=>{
   });
   guideList.innerHTML=html
 }else{
-  guideList.innerHTML= window.location=' indexi.html';
+  guideList.innerHTML=  `
+ <div class="flex-container"
+ style=
+ "display:flex;
+ justify-content:space-between;
+ flex-wrap:wrap;
+ 
+  "
+ >
+ <div class="text"
+ style="color: grey;
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: large; "
+  
+ >
+  <h3>Join The Community</h3>
+  <h3>of the student</h3>
+  <button style="
+  width:100px;
+  height:40px;
+  border:none;
+  background-color:rgba(243, 243, 64, 0.932);
+  border-radius:10px;
+  font-size:large;
+  font-weight:bold;
+  color:grey;
+  cursor:pointer;
+   ">Join Now</button>
+ </div>
+ <div class="image">
+  <img src="opinion.svg" style=" width: 400px;">
+ 
+ </div>
+ </div>
+
+  `
 }
 
 
