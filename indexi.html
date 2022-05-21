@@ -4,64 +4,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
   <style>
-.flex-container{
+/* .flex-container{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   
  
-}
-.flex-container,text {
+} */
+/* .flex-container,text {
   color: grey;
 font-family:Arial, Helvetica, sans-serif ;
 font-size: large;  
-}
-.flex-container,image {
+} */
+/* .flex-container,image {
    margin: 90px;
- }
+ } */
   
   </style>
- <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
- <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
- <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
- <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
- <script src="firebase.js"></script>
+ 
  
 </head>
 
 <body>
 
-  <nav class="z-depth-0 grey lighten-4 ">
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo">
-        <img  class="hide-on-med-and-down"
-         src="https://purepng.com/public/uploads/large/purepng.com-bitcoinobjectsbitcoinmoneycashcoinobjectgoldcurrencypaymentbitcoinvirtual-631522324013ysu8d.png " 
-         style="width: 100px; margin:auto; ">
-      </a>
-      <ul id="nav-mobile" class="right hide-on-large-and-down ">
-          <li class="logged-in">
-            <a href="#" class="grey-text modal-trigger" data-target="modal-account">Account</a>
-          </li>
-          <li class="logged-in">
-            <a href="#" class="yellow" id="logout">Logout</a>
-          </li>
-          <li class="logged-in">
-            <a href="#" class="grey-text modal-trigger" data-target="modal-create">Create Guide</a>
-          </li>
-          <li class="logged-out">
-            <a href="#" class="grey-text modal-trigger" data-target="modal-login">Login</a>
-          </li>
-          <li class="logged-out">
-            <a href="#" class="grey-text modal-trigger" data-target="modal-signup">Sign up</a>
-          </li>
-        </span>
-      </ul>
-    </div>
-  </nav>
- <div class="flex-container">
-  <div class="text">
+   
+ <div class="flex-container"
+ style="display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ align-items: center;"
+ >
+  <div class="text"
+  style="color: grey;
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: large; "
+  
+  
+  >
     <h2>Join the community</h2>
     <h2>Join the community</h2>
     <button class="btn"
@@ -75,11 +55,12 @@ font-size: large;
   </div>
   <div class="image">
     <img src="opinion.svg" 
-    style="width: 500px;">
+    style="width: 500px;  margin: 90px;">
   </div>
  </div>
  
 </body>
+ 
 </html>
 
 
