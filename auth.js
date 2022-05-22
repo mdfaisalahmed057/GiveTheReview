@@ -28,7 +28,7 @@ sign.addEventListener('click',(e)=>{
   .then((userCredential) => {
     // Signed in 
     var user = userCredential.user;
-    console.log(user)
+    // console.log(user)
     // ...
   })
   .then(()=>{
@@ -68,8 +68,7 @@ addguide.addEventListener('submit',(e)=>{
   logout.addEventListener('click',(e)=>{
     e.preventDefault();
     auth.signOut().then(()=>{
-      console.log("user logout")
-
+ 
     })
     // console.log("user logout")
   })
