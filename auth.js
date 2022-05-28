@@ -18,7 +18,7 @@ auth.onAuthStateChanged(user=>{
 
 
 const sign=document.querySelector('#signup-form')
-sign.addEventListener('click',(e)=>{
+sign.addEventListener('submit',(e)=>{
 
   e.preventDefault()
   const email=sign['signup-email'].value;
